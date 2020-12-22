@@ -1,7 +1,5 @@
 *{
     margin: 0 ;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 html{
@@ -11,6 +9,10 @@ html{
 
 h1{
     color:white
+}
+
+main{
+    display: block;
 }
 
 body{
@@ -28,20 +30,13 @@ a{
     -ms-user-select: none;      /* IE 10+ */
     user-select: none;          /* Likely future */     
   }
-  
-
-main {
-    height: 100vh;
-    font-family: 'vollkorn', serif;
-}
 
 .hero {
     min-height: 110vh;
     background-image: url(img/HeroBoliviaWEB.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center;  /* left and right arent used need to adjust aspect ratio for better quality */  
     padding: 0rem 5rem;
-    color: #fafafa;
   }
 
   .hero-message{
@@ -86,7 +81,7 @@ main {
 
   .nav-links a{
       padding-left: 5rem;
-      font-size: .75rem;
+      font-size: 1.2rem;
       text-decoration: none;
       color: #fafafa;
   }
@@ -101,7 +96,7 @@ main {
   #logo{
       font-family: 'vollkorn', serif;
       font-weight: bold;
-      font-size: 1rem;
+      font-size: 1.5rem;
   }
 
 
@@ -371,6 +366,7 @@ section .mountain > *{
 
 .commitmentcontainer p{
     color: #fafafa;
+    font-size: 1.5rem;
 }
 
 .commitmentcontainer h3{
@@ -393,13 +389,10 @@ section .mountain > *{
     display: block;
     overflow: hidden;
     padding: 30px 0;
-    margin-top: 10px;
     box-sizing: border-box;
     background-image: url(img/banner.jpg);
     background-size: cover;
     background-position: center top;
-    position: absolute;
-    z-index: -10;
 }
 
 .inner_footer{
@@ -454,7 +447,7 @@ section .mountain > *{
 
 .inner_footer .footer_third a{
     font-family: 'exo2', sans-serif;
-    font-size: 8px;
+    font-size: 1rem;
     color: white;
     display: block;
     font-weight: 200px;
