@@ -13,10 +13,22 @@ h1{
     color:white
 }
 
+body{
+    background-color: #0d0d0d;
+}
+
 a{
     text-emphasis: none;
     text-decoration: none;
 }
+
+.no-copy {
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */     
+  }
+  
 
 main {
     height: 100vh;
@@ -25,7 +37,7 @@ main {
 
 .hero {
     min-height: 110vh;
-    background: url(img/heroBoliviaWEB.jpg);
+    background-image: url(img/heroBoliviaWEB.jpg);
     background-size: cover;
     background-position: center;
     padding: 0rem 5rem;
@@ -41,14 +53,6 @@ main {
     font-size: 1rem;
     font-family: 'exo2', sans-serif;
     color: #0d0d0d;
-    cursor: default;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    z-index: 1;
   }
 
   
@@ -61,13 +65,6 @@ main {
     font-size: 1rem;
     font-family: 'exo2', sans-serif;
     color: #0d0d0d;
-    cursor: default;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
     z-index: 1;
   }
 
@@ -84,14 +81,6 @@ main {
       list-style: none;
       font-family: 'vollkorn', serif;
       font-weight: 400;
-      cursor: default;
-      -webkit-touch-callout: none;
-      -webkit-user-select: none;
-      -khtml-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-  
   }
 
 
@@ -165,13 +154,6 @@ main {
     font-size: 2rem;
     font-family: 'exo2', sans-serif;
     color: #fafafa;
-    cursor: default;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
 
 .hide{
@@ -217,12 +199,6 @@ main {
     font-family: 'exo2', sans-serif;
     color: #fafafa;
     cursor: default;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
     z-index: 10000;
   }
 
@@ -369,25 +345,11 @@ section .mountain > *{
     color: #0d0d0d;
     font-weight: 'bold';
     text-align: left;
-    cursor: default;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
 
 .ptext{
     color: #0d0d0d;
     text-align: left;
-    cursor: default;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
 
 .title{
@@ -410,12 +372,6 @@ section .mountain > *{
 
 .commitmentcontainer p{
     color: #fafafa;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
 
 .commitmentcontainer h3{
@@ -426,12 +382,6 @@ section .mountain > *{
     margin-bottom: 1rem;
     padding-bottom: .5rem;
     position: relative;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
 
 
