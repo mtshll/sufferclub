@@ -23,11 +23,6 @@ main {
     font-family: 'vollkorn', serif;
 }
 
-body{
-    background-color: #0d0d0d;
-    margin: 8px;
-}
-
 .hero {
     min-height: 110vh;
     background: url(img/heroBoliviaWEB.jpg);
