@@ -312,7 +312,7 @@ a{
 
 .mountain{
     height: 250vh;
-    background-image: url(img/mountainedit2.png);
+    background-image: url(img/mountainedit2WEB.png);
     background-size: cover;
     background-position: center;
     background-color: #151515;
@@ -390,7 +390,7 @@ section .mountain > *{
     overflow: hidden;
     padding: 30px 0;
     box-sizing: border-box;
-    background-image: url(img/banner.jpg);
+    background-image: url(img/bannerWEB.jpg);
     background-size: cover;
     background-position: center top;
 }
