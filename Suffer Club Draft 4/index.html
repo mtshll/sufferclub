@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;900&Exo+2&display=swap" rel="stylesheet">   
+    <title>Suffer Club</title>
+</head>
+
+
+<body>
+ 
+    <main>
+    
+        <section class="hero">
+
+          <!--
+            <div class="intro">
+                <div class="intro-text">
+                    <h1 class="hide">
+                        <span class="text">abandon comfort</span>
+                    </h1>
+                </div>
+                <div class="slider"></div>
+            </div>
+          </div> -->
+
+        <nav>
+           <a href="#two"><h1 id="logo">Suffer Club</h1></a>
+            <ul class="nav-links">
+                <a href="#one"><li>store</li></a>
+                <a href="#two"><li>about</li></a>
+                <a href="#three"><li>contact</li></a>
+            </ul>
+        </nav>
+
+        <a><h1 class='hero-message'>challenge</h1></a>
+        <a><h1 class='hero-message2'>everything</h1></a>
+
+        </section>
+
+        <section class="shop">
+          
+
+          <a data-aos="fade-up"><h1 class='sectionheading' id="one">our kit</h1></a>
+
+        <!--Hat Card-->
+          <div class="shopcontent">
+        <div class="container" data-aos="fade-up">
+          <div class="card">
+              <div class="imgBx">
+                  <img src="img/hat.png">
+              </div>
+              <div class="contentBx">
+              <h3>The Founders Cap</h3>
+              <p>one size fits all
+               snapback
+               56% recycled Polyester, 44% cotton</p>         
+            <div id='product-component-1608411146395' class="shopifyBtn"></div>
+            <script type="text/javascript">
+            /*<![CDATA[*/
+            (function () {
+              var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+              if (window.ShopifyBuy) {
+                if (window.ShopifyBuy.UI) {
+                  ShopifyBuyInit();
+                } else {
+                  loadScript();
+                }
+              } else {
+                loadScript();
+              }
+              function loadScript() {
+                var script = document.createElement('script');
+                script.async = true;
+                script.src = scriptURL;
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+                script.onload = ShopifyBuyInit;
+              }
+              function ShopifyBuyInit() {
+                var client = ShopifyBuy.buildClient({
+                  domain: 'suffer-club.myshopify.com',
+                  storefrontAccessToken: 'd68d41d6150ffb44bb1fa02536245781',
+                });
+                ShopifyBuy.UI.onReady(client).then(function (ui) {
+                  ui.createComponent('product', {
+                    id: '6257112711317',
+                    node: document.getElementById('product-component-1608411146395'),
+                    moneyFormat: 'FCFA%7B%7Bamount%7D%7D',
+                    options: {
+              "product": {
+                "styles": {
+                  "product": {
+                    "@media (min-width: 601px)": {
+                      "max-width": "calc(25% - 20px)",
+                      "margin-left": "20px",
+                      "margin-bottom": "50px"
+                    }
+                  },
+                  "title": {
+                    "font-family": "Open Sans, sans-serif",
+                    "color": "#fafafa"
+                  },
+                  "button": {
+                    "font-family": "Open Sans, sans-serif",
+                    ":hover": {
+                      "background-color": "#dbae5c"
+                    },
+                    "background-color": "#dbae5c",
+                    ":focus": {
+                      "background-color": "#dbae5c"
+                    },
+                    "border-radius": "0px"
+                  },
+                  "price": {
+                    "font-family": "Open Sans, sans-serif",
+                    "font-weight": "bold",
+                    "color": "#fafafa"
+                  },
+                  "compareAt": {
+                    "font-family": "Open Sans, sans-serif",
+                    "font-weight": "bold",
+                    "color": "#fafafa"
+                  },
+                  "unitPrice": {
+                    "font-family": "Open Sans, sans-serif",
+                    "font-weight": "bold",
+                    "color": "#fafafa"
+                  }
+                },
+                "contents": {
+                  "img": false,
+                  "title": false,
+                  "price": false
+                },
+                "text": {
+                  "button": "Add to cart"
+                },
+                "googleFonts": [
+                  "Open Sans"
+                ]
+              },
+              "productSet": {
+                "styles": {
+                  "products": {
+                    "@media (min-width: 601px)": {
+                      "margin-left": "-20px"
+                    }
+                  }
+                }
+              },
+              "modalProduct": {
+                "contents": {
+                  "img": false,
+                  "imgWithCarousel": true,
+                  "button": false,
+                  "buttonWithQuantity": true
+                },
+                "styles": {
+                  "product": {
+                    "@media (min-width: 601px)": {
+                      "max-width": "100%",
+                      "margin-left": "0px",
+                      "margin-bottom": "0px"
+                    }
+                  },
+                  "button": {
+                    "font-family": "Open Sans, sans-serif",
+                    ":hover": {
+                      "background-color": "#dbae5c"
+                    },
+                    "background-color": "#dbae5c",
+                    ":focus": {
+                      "background-color": "#dbae5c"
+                    },
+                    "border-radius": "0px"
+                  }
+                },
+                "googleFonts": [
+                  "Open Sans"
+                ],
+                "text": {
+                  "button": "Add to cart"
+                }
+              },
+              "cart": {
+                "styles": {
+                  "button": {
+                    "font-family": "Open Sans, sans-serif",
+                    ":hover": {
+                      "background-color": "#87ac41"
+                    },
+                    "background-color": "#96bf48",
+                    ":focus": {
+                      "background-color": "#87ac41"
+                    },
+                    "border-radius": "0px"
+                  },
+                  "title": {
+                    "color": "#0d0d0d"
+                  },
+                  "header": {
+                    "color": "#0d0d0d"
+                  },
+                  "lineItems": {
+                    "color": "#0d0d0d"
+                  },
+                  "subtotalText": {
+                    "color": "#0d0d0d"
+                  },
+                  "subtotal": {
+                    "color": "#0d0d0d"
+                  },
+                  "notice": {
+                    "color": "#0d0d0d"
+                  },
+                  "currency": {
+                    "color": "#0d0d0d"
+                  },
+                  "close": {
+                    "color": "#0d0d0d",
+                    ":hover": {
+                      "color": "#0d0d0d"
+                    }
+                  },
+                  "empty": {
+                    "color": "#0d0d0d"
+                  },
+                  "noteDescription": {
+                    "color": "#0d0d0d"
+                  },
+                  "discountText": {
+                    "color": "#0d0d0d"
+                  },
+                  "discountIcon": {
+                    "fill": "#0d0d0d"
+                  },
+                  "discountAmount": {
+                    "color": "#0d0d0d"
+                  }
+                },
+                "text": {
+                  "total": "Subtotal",
+                  "button": "Checkout"
+                },
+                "popup": false,
+                "googleFonts": [
+                  "Open Sans"
+                ]
+              },
+              "toggle": {
+                "styles": {
+                  "toggle": {
+                    "font-family": "Open Sans, sans-serif",
+                    "background-color": "#96bf48",
+                    ":hover": {
+                      "background-color": "#87ac41"
+                    },
+                    ":focus": {
+                      "background-color": "#87ac41"
+                    }
+                  }
+                },
+                "googleFonts": [
+                  "Open Sans"
+                ]
+              },
+              "lineItem": {
+                "styles": {
+                  "variantTitle": {
+                    "color": "#0d0d0d"
+                  },
+                  "title": {
+                    "color": "#0d0d0d"
+                  },
+                  "price": {
+                    "color": "#0d0d0d"
+                  },
+                  "fullPrice": {
+                    "color": "#0d0d0d"
+                  },
+                  "discount": {
+                    "color": "#0d0d0d"
+                  },
+                  "discountIcon": {
+                    "fill": "#0d0d0d"
+                  },
+                  "quantity": {
+                    "color": "#0d0d0d"
+                  },
+                  "quantityIncrement": {
+                    "color": "#0d0d0d",
+                    "border-color": "#0d0d0d"
+                  },
+                  "quantityDecrement": {
+                    "color": "#0d0d0d",
+                    "border-color": "#0d0d0d"
+                  },
+                  "quantityInput": {
+                    "color": "#0d0d0d",
+                    "border-color": "#0d0d0d"
+                  }
+                }
+              }
+            },
+                  });
+                });
+              }
+            })();
+            /*]]>*/
+            </script>
+             
+              </div>
+          </div>
+      </div>
+  
+      <!--End Hat Card-->
+
+      <!--Toque Card-->
+
+      <div class="container" data-aos="fade-up">
+        <div class="card">
+            <div class="imgBx">
+                <img src="img/hat 2.png">
+            </div>
+            <div class="contentBx">
+              <div id='product-component-1608434620573'></div>
+              <script type="text/javascript">
+              /*<![CDATA[*/
+              (function () {
+                var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+                if (window.ShopifyBuy) {
+                  if (window.ShopifyBuy.UI) {
+                    ShopifyBuyInit();
+                  } else {
+                    loadScript();
+                  }
+                } else {
+                  loadScript();
+                }
+                function loadScript() {
+                  var script = document.createElement('script');
+                  script.async = true;
+                  script.src = scriptURL;
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+                  script.onload = ShopifyBuyInit;
+                }
+                function ShopifyBuyInit() {
+                  var client = ShopifyBuy.buildClient({
+                    domain: 'suffer-club.myshopify.com',
+                    storefrontAccessToken: 'd68d41d6150ffb44bb1fa02536245781',
+                  });
+                  ShopifyBuy.UI.onReady(client).then(function (ui) {
+                    ui.createComponent('product', {
+                      id: '6257123295381',
+                      node: document.getElementById('product-component-1608434620573'),
+                      moneyFormat: 'FCFA%7B%7Bamount%7D%7D',
+                      options: {
+                "product": {
+                  "styles": {
+                    "product": {
+                      "@media (min-width: 601px)": {
+                        "max-width": "calc(25% - 20px)",
+                        "margin-left": "20px",
+                        "margin-bottom": "50px"
+                      }
+                    },
+                    "title": {
+                      "font-family": "Open Sans, sans-serif",
+                      "color": "#fafafa"
+                    },
+                    "button": {
+                      "font-family": "Open Sans, sans-serif",
+                      ":hover": {
+                        "background-color": "#dbae5c"
+                      },
+                      "background-color": "#dbae5c",
+                      ":focus": {
+                        "background-color": "#dbae5c"
+                      },
+                      "border-radius": "0px"
+                    },
+                    "price": {
+                      "font-family": "Open Sans, sans-serif",
+                      "font-weight": "bold",
+                      "color": "#fafafa"
+                    },
+                    "compareAt": {
+                      "font-family": "Open Sans, sans-serif",
+                      "font-weight": "bold",
+                      "color": "#fafafa"
+                    },
+                    "unitPrice": {
+                      "font-family": "Open Sans, sans-serif",
+                      "font-weight": "bold",
+                      "color": "#fafafa"
+                    }
+                  },
+                  "contents": {
+                    "img": false,
+                    "title": false,
+                    "price": false
+                  },
+                  "text": {
+                    "button": "Add to cart"
+                  },
+                  "googleFonts": [
+                    "Open Sans"
+                  ]
+                },
+                "productSet": {
+                  "styles": {
+                    "products": {
+                      "@media (min-width: 601px)": {
+                        "margin-left": "-20px"
+                      }
+                    }
+                  }
+                },
+                "modalProduct": {
+                  "contents": {
+                    "img": false,
+                    "imgWithCarousel": true,
+                    "button": false,
+                    "buttonWithQuantity": true
+                  },
+                  "styles": {
+                    "product": {
+                      "@media (min-width: 601px)": {
+                        "max-width": "100%",
+                        "margin-left": "0px",
+                        "margin-bottom": "0px"
+                      }
+                    },
+                    "button": {
+                      "font-family": "Open Sans, sans-serif",
+                      ":hover": {
+                        "background-color": "#dbae5c"
+                      },
+                      "background-color": "#dbae5c",
+                      ":focus": {
+                        "background-color": "#dbae5c"
+                      },
+                      "border-radius": "0px"
+                    }
+                  },
+                  "googleFonts": [
+                    "Open Sans"
+                  ],
+                  "text": {
+                    "button": "Add to cart"
+                  }
+                },
+                "cart": {
+                  "styles": {
+                    "button": {
+                      "font-family": "Open Sans, sans-serif",
+                      ":hover": {
+                        "background-color": "#dbae5c"
+                      },
+                      "background-color": "#dbae5c",
+                      ":focus": {
+                        "background-color": "#dbae5c"
+                      },
+                      "border-radius": "0px"
+                    },
+                    "title": {
+                      "color": "#0d0d0d"
+                    },
+                    "header": {
+                      "color": "#0d0d0d"
+                    },
+                    "lineItems": {
+                      "color": "#0d0d0d"
+                    },
+                    "subtotalText": {
+                      "color": "#0d0d0d"
+                    },
+                    "subtotal": {
+                      "color": "#0d0d0d"
+                    },
+                    "notice": {
+                      "color": "#0d0d0d"
+                    },
+                    "currency": {
+                      "color": "#0d0d0d"
+                    },
+                    "close": {
+                      "color": "#0d0d0d",
+                      ":hover": {
+                        "color": "#0d0d0d"
+                      }
+                    },
+                    "empty": {
+                      "color": "#0d0d0d"
+                    },
+                    "noteDescription": {
+                      "color": "#0d0d0d"
+                    },
+                    "discountText": {
+                      "color": "#0d0d0d"
+                    },
+                    "discountIcon": {
+                      "fill": "#0d0d0d"
+                    },
+                    "discountAmount": {
+                      "color": "#0d0d0d"
+                    }
+                  },
+                  "text": {
+                    "total": "Subtotal",
+                    "button": "Checkout"
+                  },
+                  "popup": false,
+                  "googleFonts": [
+                    "Open Sans"
+                  ]
+                },
+                "toggle": {
+                  "styles": {
+                    "toggle": {
+                      "font-family": "Open Sans, sans-serif",
+                      "background-color": "#dbae5c",
+                      ":hover": {
+                        "background-color": "#dbae5c"
+                      },
+                      ":focus": {
+                        "background-color": "#dbae5c"
+                      }
+                    }
+                  },
+                  "googleFonts": [
+                    "Open Sans"
+                  ]
+                },
+                "lineItem": {
+                  "styles": {
+                    "variantTitle": {
+                      "color": "#0d0d0d"
+                    },
+                    "title": {
+                      "color": "#0d0d0d"
+                    },
+                    "price": {
+                      "color": "#0d0d0d"
+                    },
+                    "fullPrice": {
+                      "color": "#0d0d0d"
+                    },
+                    "discount": {
+                      "color": "#0d0d0d"
+                    },
+                    "discountIcon": {
+                      "fill": "#0d0d0d"
+                    },
+                    "quantity": {
+                      "color": "#0d0d0d"
+                    },
+                    "quantityIncrement": {
+                      "color": "#0d0d0d",
+                      "border-color": "#0d0d0d"
+                    },
+                    "quantityDecrement": {
+                      "color": "#0d0d0d",
+                      "border-color": "#0d0d0d"
+                    },
+                    "quantityInput": {
+                      "color": "#0d0d0d",
+                      "border-color": "#0d0d0d"
+                    }
+                  }
+                }
+              },
+                    });
+                  });
+                }
+              })();
+              /*]]>*/
+              </script>
+      
+           
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- End Toque Card-->
+
+
+
+</div> <!--Card-->
+
+        </section>
+
+<section class="mountain" data-aos="fade-up">
+  
+  <div class="container">
+    <div class="shadow"></div>
+      <div class="content" id="two">
+          <h3 class="title" data-aos="fade-right">
+              our story
+          </h3>
+          <p class="ptext" data-aos="fade-left">the suffer club is the acknowledgment of the insanity required to deviate from the norm. it is the pride we hold in an all out effert to attaining personal greatness. it is knowingly and willingily putting ourselves in discomfort on a consistent basis regardlesss of external locus. its the commitment  to the potential actualization of greatness before during and after the moments that reward us </p>
+          <div class="commitmentcontainer">
+            <h3 data-aos="fade-left">
+              our commitment
+          </h3>
+          <p data-aos="fade-right">
+            The suffer club is also in defiance of unessecary suffering. Being an actionable collective of community concious atheletes we aim to do our part to provide others the means to attain greatness. 20% of all revenue goes towards monthly philanthropical causes.</p>
+          </div>
+      </div>
+
+</section>
+
+        <!--Footer-->
+            <div class="footer" id="three" data-aos="fade-up">
+                <div class="inner_footer">
+                    <div class="logo_container">
+                        <h3>suffer club</h3>
+                    </div>  
+                    <div class="footer_third">
+                        <h1>Follow Us</h1>
+                        <li><a href="https://www.instagram.com/wearethesufferclub/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    
+                    </div>
+                    <div class="footer_third">
+                        <h1>Need Help?</h1>
+                        <a href="#">Terms &amp; Conditions</a> 
+                        <a href="#">Privacy Policy</a>       
+                    </div>
+                    <div class="footer_third">
+                        <h1>Contact Us</h1>
+                        <a id="email">SufferClub@gmail.com</a>
+                        <span>
+                            © suffer Club 2020 <br>
+                            Toronto, Ontario <br>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+
+        <!--End Footer-->
+
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
