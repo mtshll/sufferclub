@@ -33,7 +33,7 @@ a{
 
 .hero {
     min-height: 110vh;
-    background-image: url(img/HeroBoliviaWEB.jpg);
+    background-image: url(img/HeroBoliviaWEB2.jpg);
     background-size: cover;
     background-position: center;  /* left and right arent used need to adjust aspect ratio for better quality */  
     padding: 0rem 5rem;
